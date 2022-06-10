@@ -1,2 +1,5 @@
-# homecredit
-Kaggle Home Credit Default Risk 
+# Home Credit Default Risk
+### 🙋‍♂️ Goals
+### 𝌞 Data Preprocessing
+### ⌨️ Models
+### 📍 Takeaway
