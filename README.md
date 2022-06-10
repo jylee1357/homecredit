@@ -20,6 +20,6 @@
   - Previous_application_train.csv
     + Merged with application_train.csv
     + Used aggregation to apply all the preprocessing functions on each 'SK_ID_CURR' and saved the result as a new dataframe
-    + 
+    + <img width="990" alt="Screen Shot 2022-06-01 at 11 11 22 AM" src="https://user-images.githubusercontent.com/98932859/173038622-b0a61386-deaa-4e1a-852d-5f856765109a.png">
 ### ⌨️ Models
 ### 📍 Takeaway
