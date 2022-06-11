@@ -36,5 +36,13 @@
     + <img width="1000" alt="Screen Shot 2022-06-11 at 9 12 44 AM" src="https://user-images.githubusercontent.com/98932859/173164665-f87cf00a-f915-4299-b328-b811e8ec0b22.png">
 * Hyperparameter Tuning
   - Used Bayesian Optimization to tune hyperparameters of models that were created using application & previous train datasets.
-  -     
+  - Set values for search
+  - For each iteration, hyperparameters are updated and using the parameters, classifiers were trained. The roc_auc_score was returned as well.
+  - Using the best hyperparameters, classifier was tested again. 
+  - Tuning the hyperparameters by performing cross-validation (final score: 0.79787)
+    + <img width="966" alt="Screen Shot 2022-06-11 at 9 41 05 AM" src="https://user-images.githubusercontent.com/98932859/173165850-0fb75716-4fe0-400b-ace5-0f797d2b050d.png">
+    + <img width="956" alt="Screen Shot 2022-06-11 at 9 41 55 AM" src="https://user-images.githubusercontent.com/98932859/173165885-3659cfef-c3b7-4b3b-8a3d-002ee1d08640.png">
+    
 ### 📍 Takeaway
+* The determinant features that enhanced model's performance were 'DAYS_BIRTH', 'AMT_CREDIT', 'CREDIT_SCORE'.
+* After cross-validation, the model's final score improved by 0.03.
