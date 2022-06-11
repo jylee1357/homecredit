@@ -29,4 +29,12 @@
       +  <img width="1001" alt="Screen Shot 2022-06-11 at 9 01 57 AM" src="https://user-images.githubusercontent.com/98932859/173164154-a9b36ed4-ff95-4baf-9dbc-71d52969d634.png">
 
 ### ⌨️ Models
+* LGBM Classifier
+  - app_baseline (score: 0.74448)
+    + <img width="993" alt="Screen Shot 2022-06-11 at 9 11 04 AM" src="https://user-images.githubusercontent.com/98932859/173164592-e0d9bdd8-08d7-4915-bb97-701b25025bea.png">
+  - prev_baseline (score: 0.77574)
+    + <img width="1000" alt="Screen Shot 2022-06-11 at 9 12 44 AM" src="https://user-images.githubusercontent.com/98932859/173164665-f87cf00a-f915-4299-b328-b811e8ec0b22.png">
+* Hyperparameter Tuning
+  - Used Bayesian Optimization to tune hyperparameters of models that were created using application & previous train datasets.
+  -     
 ### 📍 Takeaway
