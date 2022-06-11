@@ -20,6 +20,13 @@
   - Previous_application_train.csv
     + Merged with application_train.csv
     + Used aggregation to apply all the preprocessing functions on each 'SK_ID_CURR' and saved the result as a new dataframe
-    + <img width="990" alt="Screen Shot 2022-06-01 at 11 11 22 AM" src="https://user-images.githubusercontent.com/98932859/173038622-b0a61386-deaa-4e1a-852d-5f856765109a.png">
+ * Feature Engineering
+   - Created new factors using amt_credit
+      +  <img width="1000" alt="Screen Shot 2022-06-11 at 8 53 20 AM" src="https://user-images.githubusercontent.com/98932859/173163734-fa502127-3a23-479f-8fa3-ca98522194dd.png">
+    - Using 'amt_income_total', features regarding client's loan were manipulated. 
+      +  <img width="1000" alt="Screen Shot 2022-06-11 at 8 53 20 AM" src="https://user-images.githubusercontent.com/98932859/173164029-6706e1d9-627d-4f26-bec7-8c8d995ffe71.png">
+   - Using 'DAYS_BIRTH' and 'DAYS_EMPLOYED', features regarding income were manipulated.
+      +  <img width="1001" alt="Screen Shot 2022-06-11 at 9 01 57 AM" src="https://user-images.githubusercontent.com/98932859/173164154-a9b36ed4-ff95-4baf-9dbc-71d52969d634.png">
+
 ### ⌨️ Models
 ### 📍 Takeaway
